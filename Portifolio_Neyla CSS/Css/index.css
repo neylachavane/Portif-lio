@@ -1,0 +1,42 @@
+header>h1> a {
+    color: var(--primary);
+}
+div {
+    display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 50px;
+}
+    
+div > aside> button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: var(--primary);
+    border: solid white;
+    height: 100px;
+    width: 150px;
+margin-right: 400px;
+}
+div > aside> button> a {
+    text-decoration: none;
+    color: black;
+}
+div > main {
+    background-color: var(--surface);
+    margin: 0;
+    width: 600px ;
+    height: 550px;
+
+}
+#img_redonda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 100px;
+}
+

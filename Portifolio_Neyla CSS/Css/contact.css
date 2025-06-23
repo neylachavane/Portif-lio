@@ -1,0 +1,13 @@
+#contact {
+    color: var(--primary);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--surface);
+    height: 600px;
+    width: 1000px;
+    margin-left: 50px;
+    padding: 80px;
+    
+}

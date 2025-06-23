@@ -1,0 +1,45 @@
+#about 
+ {
+    color: var(--primary);
+}
+div {
+    display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 50px;
+padding: 0;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--surface) ;
+    width: 500px;
+    height: 500px;
+}
+main>div  { 
+    display: flex;
+border: solid var(--secundary);
+background-color: var(--secundary);
+justify-content: center;
+width: 350px;
+height: 350px;
+margin-left: 300px;
+}
+
+main> div >img{
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 50%;
+    margin: 60px;
+    width: 200px;
+    height: 200px;
+}
+section{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+
+
+
